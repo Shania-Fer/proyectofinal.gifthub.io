@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #245e94;
+    color: #b365b6;
+}
+
+.contenedor{
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background: #eee5e9;
+    padding: 20px;
+}
+
+form p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+/* Comentario en CSS */
+.btn{
+    margin: 0 auto;
+    width: 18%;
+    background: #cf5c36;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 12px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.suma{
+    background: lightcoral;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.suma:hover{
+    background: palegreen;
+    color: lightblue;
+}
+
+.resta{
+    background: blueviolet;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.resta:hover{
+    background: lightgoldenrodyellow;
+    color: aquamarine;
+}
+
+.multi{
+    background: lightgreen;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.multi:hover{
+    background: olivedrab;
+    color: bisque;
+}
+
+.divi{
+    background: palegoldenrod;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.divi:hover{
+    background: plum;
+    color: purple;
+}
+
+.resi{
+    background: pink;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.resi:hover{
+    background: lightcyan;
+    color: orange;
+}
